@@ -1,0 +1,35 @@
+# 📘 Guia Rápido: Comandos Git e GitHub
+
+Este repositório contém os principais comandos utilizados no Git e GitHub. Ideal para iniciantes ou para consultas rápidas no dia a dia de desenvolvimento.
+
+---
+
+## 📂 Índice
+
+- [💡 O que é Git e GitHub?](#💡-o-que-é-git-e-github)
+- [🔧 Configuração Inicial](#🔧-configuração-inicial)
+- [📦 Comandos de Versionamento](#📦-comandos-de-versionamento)
+- [🌿 Branches](#🌿-branches)
+- [🔄 Git Remoto (GitHub)](#🔄-git-remoto-github)
+- [🧹 Limpeza e Correções](#🧹-limpeza-e-correções)
+- [🧠 Dicas Úteis](#🧠-dicas-úteis)
+- [📚 Referências](#📚-referências)
+
+---
+
+## 💡 O que é Git e GitHub?
+
+| Git | GitHub |
+|-----|--------|
+| Sistema de controle de versão distribuído. | Plataforma de hospedagem de repositórios Git na nuvem. |
+| Funciona localmente. | Permite colaboração e controle de versões online. |
+| Linha de comando ou GUI. | Interface gráfica via navegador. |
+
+---
+
+## 🔧 Configuração Inicial
+
+```bash
+git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
+git config --global init.defaultBranch main
